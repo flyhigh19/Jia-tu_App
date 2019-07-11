@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+       <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+    	 <LinearLayout 
+    	        android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:orientation="horizontal" 
+    		    android:layout_weight="5">
+    	     <Button 
+    	             android:id="@+id/image_i1"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i1"
+    		          />
+    	     <Button 
+    	             android:id="@+id/image_i2"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i2"
+    		          />
+    	     <Button 
+    	             android:id="@+id/image_i3"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i3"
+         			  />
+    	 </LinearLayout>
+     </HorizontalScrollView>
+     <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+       
+    	  <LinearLayout 
+    	        android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:orientation="horizontal"
+    		    android:layout_weight="5" >  //横向排列
+    	     <Button 
+    	             android:id="@+id/image_i4"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i4"
+    		          />
+    	     <Button 
+    	             android:id="@+id/image_i5"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i5"
+    		          />
+    	     <Button
+    	             android:id="@+id/image_i6"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i6"/>
+    	 </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+         <LinearLayout 
+    	        android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:orientation="horizontal"
+    		    android:layout_weight="5" >  //横向排列
+    	     <Button 
+    	             android:id="@+id/image_i7"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i5"
+    		          />
+    	     <Button 
+    	             android:id="@+id/image_i8"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i8"
+    		          />
+    	     <Button
+    	             android:id="@+id/image_i9"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i9" />
+    	 </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+    	  <LinearLayout 
+    	        android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:orientation="horizontal"
+    		    android:layout_weight="5" >  //横向排列
+    	     <Button 
+    	             android:id="@+id/image_i10"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i10"
+    		          />
+    	     <Button 
+    	             android:id="@+id/image_i11"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i11"
+    		          />
+    	     <Button
+    	             android:id="@+id/image_i12"
+        			 android:layout_width="120dip"
+            		 android:layout_height="120dip"
+         			 android:background="@drawable/i12"/>
+    	 </LinearLayout>
+   </HorizontalScrollView>
+ </LinearLayout>
+</ScrollView>

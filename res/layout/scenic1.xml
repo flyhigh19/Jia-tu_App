@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="35dip"
+        android:background="#00BFFF"
+        android:orientation="horizontal">	    
+   	 <Button
+        android:id="@+id/return1"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/i23"/>
+   	 <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/return1"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="1dp"
+        android:textSize="21sp"
+        android:text="景区简介"/> 
+     </LinearLayout>
+   <ImageView   
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"  
+        android:src="@drawable/d2"/>    
+</LinearLayout>

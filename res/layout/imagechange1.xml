@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical"  
+    tools:context=".MainActivity">  
+  
+    <ImageView  
+        android:id="@+id/iv_head"  
+        android:layout_width="150dp"  
+        android:layout_height="150dp"  
+        android:layout_gravity="center_horizontal"  
+        android:src="@drawable/j" />  
+  
+    <Button  
+        android:id="@+id/btn_takephoto"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="拍照" />  
+  
+    <Button  
+        android:id="@+id/btn_photos"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="从相册中选取" /> 
+    <Button  
+        android:id="@+id/btn_myimage"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="我的头像库" />  
+    <Button  
+        android:id="@+id/btn_return"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="返回" /> 
+</LinearLayout>  
