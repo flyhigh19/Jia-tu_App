@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+	<uses-permission android:name="android.permission.CAMERA" />  
+	<uses-feature android:name="android.hardware.camera"/>  
+	<uses-feature android:name="android.hardware.camera.autofocus"/>  
+  	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />  
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> 
+    
+<!--允许程序打开网络套接字-->
+<uses-permission android:name="android.permission.INTERNET" />
+<!--允许程序设置内置sd卡的写权限-->
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />   
+<!--允许程序获取网络状态-->
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+<!--允许程序访问WiFi网络信息-->
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+<!--允许程序读写手机状态和身份-->
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />     
+<!--允许程序访问CellID或WiFi热点来获取粗略的位置-->
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+
+    <application
+        android:allowBackup="true"
+        android:name="com.example.app.application"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="b21597161b0151eb67d39be315ca8ff8"/>
+        <activity
+            android:name="com.example.app.login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"  android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity android:name=".register" android:launchMode="singleTask"></activity>
+        <activity android:name=".forgetpassword" android:launchMode="singleTask"></activity>
+        <activity android:name=".forgetpassword1" android:launchMode="singleTask"></activity>
+        <activity android:name=".forgetpassword2" android:launchMode="singleTask"></activity>
+        <activity android:name=".Main1Activity" android:launchMode="singleTask"></activity>
+        <activity android:name=".centerright" android:launchMode="singleTask"></activity>
+        <activity android:name=".scenicl" android:launchMode="singleTask"></activity>
+        <activity android:name=".jiance" android:launchMode="singleTask"  android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity android:name=".yuce" android:launchMode="singleTask"  android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity android:name=".travelbooking" android:launchMode="singleTask"></activity>
+        <activity android:name=".feature" android:launchMode="singleTask"></activity>
+        <activity android:name=".play" android:launchMode="singleTask"></activity>
+        <activity android:name=".hotel" android:launchMode="singleTask"></activity>
+        <activity android:name=".Main2Activity" android:launchMode="singleTask"></activity>
+        <activity android:name=".Main3Activity" android:launchMode="singleTask"></activity>
+        <activity android:name=".MessageActivity"></activity>
+        <activity android:name=".Main21Activity" android:launchMode="singleTask"></activity>
+        <activity android:name=".ImagechangeActivity" android:launchMode="singleTask"></activity>
+        <activity android:name=".ImagechangeActivity1" android:launchMode="singleTask"></activity>
+        <activity android:name=".signature" 
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".bwl"></activity>
+        <activity android:name=".account" android:launchMode="singleTask"></activity>
+        <activity android:name=".set" android:launchMode="singleTask"></activity>
+        <activity android:name=".search" android:launchMode="singleTask" android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+         <activity android:name=".fenxi" android:launchMode="singleTask"></activity>
+      </application>
+</manifest>
